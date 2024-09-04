@@ -1,0 +1,8 @@
+const botao = document.querySelector("button");
+botao.addEventListener("click", (e) => {
+  if (document.body.style.backgroundColor == "white") {
+    document.body.style.backgroundColor = "black";
+  } else {
+    document.body.style.backgroundColor = "white";
+  }
+});
